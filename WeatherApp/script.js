@@ -1,4 +1,4 @@
-const API_KEY = '87042b4a028bf6524fa0f46471fd0ab5'
+const API_KEY = process.env.API_KEY
 
 const userWeather = document.querySelector("[data-user-weather]")
 const searchWeather = document.querySelector("[data-search-weather]")
